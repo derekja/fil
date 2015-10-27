@@ -4,7 +4,7 @@ import AceEditor from 'react-ace';
 import 'brace/mode/python';
 import 'brace/mode/ruby';
 import 'brace/mode/javascript';
-import 'brace/theme/tomorrow_night';
+import 'brace/theme/solarized_light';
 
 import {getExtension} from 'helpers';
 import {byExtension} from 'interpreters';
@@ -51,7 +51,7 @@ class CodeEditor extends React.Component {
         height={"100%"}
         fontSize={17}
         mode={mode}
-        theme="tomorrow_night"
+        theme="solarized_light"
         ref={"editor"} 
         showGutter={false}
         className={block + "__editor-wrapper"}
