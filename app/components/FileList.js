@@ -95,7 +95,7 @@ class FileItem extends React.Component {
         {isCurrent && (
           <a className={block + "__permalink"}
              href={this.buildPermalink(path)}
-             target="_blank">permalink</a>
+             target="_blank"></a>
         )}
         <a href="#"
            target="_blank" 

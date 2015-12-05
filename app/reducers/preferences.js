@@ -3,7 +3,7 @@ import _ from "underscore";
 import * as Actions from 'constants/ActionTypes';
 
 const initialState = {
-  liveCoding: true
+  liveCoding: false
 };
 
 export function preferences(state = initialState, action) {
